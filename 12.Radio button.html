@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Radio Button</title>
+
+</head>
+<body>
+    <h1>Radio Button</h1>
+    <h2 style="color: red;">Note : when you click submit button then search "name=value" form</h2>
+    <form action="/server">
+        <input type="radio" name="fruit" id="apple" value="apple">
+        <label for="apple">apple</label>
+        <input type="radio" name="fruit" id="mango" value="mango">
+        <label for="mango">mango</label>
+        <input type="radio" name="fruit" id="banana" value="banana">
+        <label for="banana">banana</label>
+       
+        <h2>Grouping checkbox (name same)</h2>
+        <div>
+            Choose your subject:
+          <input type="checkbox" name="subj" id="math" value="math">
+          <label for="math">maths</label>
+          <input type="checkbox" name="subj" id="phy" value="phy">
+          <label for="phy">physics</label>
+          <input type="checkbox" name="subj" id="chem" value="chem">
+          <label for="chem">Chemistry</label>
+          <button>submit</button>
+        </div>
+
+    </form>
+    
+</body>
+</html>

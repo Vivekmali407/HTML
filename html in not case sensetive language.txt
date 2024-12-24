@@ -1,0 +1,1 @@
+html , SQL is not case sensetive language but javascript, C++ is case sensetive language.
